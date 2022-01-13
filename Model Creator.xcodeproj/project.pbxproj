@@ -272,10 +272,9 @@
 			};
 			buildConfigurationList = E2FA87B01A059AC100648EB6 /* Build configuration list for PBXProject "Model Creator" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
