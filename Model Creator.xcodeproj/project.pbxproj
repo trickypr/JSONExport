@@ -83,7 +83,7 @@
 		E28631501A158CFA0041B178 /* LangModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LangModel.swift; sourceTree = "<group>"; };
 		E28631511A158CFA0041B178 /* UtilityMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityMethod.swift; sourceTree = "<group>"; };
 		E286D00A1A226ADE001AEF0D /* SharedUtilityMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedUtilityMethods.swift; sourceTree = "<group>"; };
-		E2FA87B51A059AC100648EB6 /* JSONExport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONExport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FA87B51A059AC100648EB6 /* Model Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Model Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FA87B91A059AC100648EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2FA87BA1A059AC100648EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2FA87BC1A059AC100648EB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -203,7 +203,7 @@
 		E2FA87B61A059AC100648EB6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2FA87B51A059AC100648EB6 /* JSONExport.app */,
+				E2FA87B51A059AC100648EB6 /* Model Creator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,9 +236,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2FA87B41A059AC100648EB6 /* JSONExport */ = {
+		E2FA87B41A059AC100648EB6 /* Model Creator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2FA87D11A059AC100648EB6 /* Build configuration list for PBXNativeTarget "JSONExport" */;
+			buildConfigurationList = E2FA87D11A059AC100648EB6 /* Build configuration list for PBXNativeTarget "Model Creator" */;
 			buildPhases = (
 				E2FA87B11A059AC100648EB6 /* Sources */,
 				E2FA87B21A059AC100648EB6 /* Frameworks */,
@@ -248,9 +248,9 @@
 			);
 			dependencies = (
 			);
-			name = JSONExport;
+			name = "Model Creator";
 			productName = JSONExport;
-			productReference = E2FA87B51A059AC100648EB6 /* JSONExport.app */;
+			productReference = E2FA87B51A059AC100648EB6 /* Model Creator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -270,7 +270,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E2FA87B01A059AC100648EB6 /* Build configuration list for PBXProject "JSONExport" */;
+			buildConfigurationList = E2FA87B01A059AC100648EB6 /* Build configuration list for PBXProject "Model Creator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -284,7 +284,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2FA87B41A059AC100648EB6 /* JSONExport */,
+				E2FA87B41A059AC100648EB6 /* Model Creator */,
 			);
 		};
 /* End PBXProject section */
@@ -502,7 +502,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2FA87B01A059AC100648EB6 /* Build configuration list for PBXProject "JSONExport" */ = {
+		E2FA87B01A059AC100648EB6 /* Build configuration list for PBXProject "Model Creator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2FA87CF1A059AC100648EB6 /* Debug */,
@@ -511,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2FA87D11A059AC100648EB6 /* Build configuration list for PBXNativeTarget "JSONExport" */ = {
+		E2FA87D11A059AC100648EB6 /* Build configuration list for PBXNativeTarget "Model Creator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2FA87D21A059AC100648EB6 /* Debug */,
