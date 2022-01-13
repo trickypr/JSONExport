@@ -33,6 +33,9 @@
 
 import Cocoa
 
+// File update notes
+// TODO: Change from NSUserNotificationCenterDelegate to whatever the current recomendation is
+
 class ViewController: NSViewController, NSUserNotificationCenterDelegate, NSTableViewDelegate, NSTableViewDataSource, NSTextViewDelegate {
     
     //Shows the list of files' preview
@@ -196,7 +199,7 @@ class ViewController: NSViewController, NSUserNotificationCenterDelegate, NSTabl
 		oPanel.prompt = "Choose JSON file"
 		
 		oPanel.beginSheetModal(for: self.view.window!) { button in
-			if button.rawValue == NSFileHandlingPanelOKButton {
+            if button == NSApplication.ModalResponse.OK {
 				let jsonPath = oPanel.urls.first!.path
 				let fileHandle = FileHandle(forReadingAtPath: jsonPath)
 				let urlStr:String  = oPanel.urls.first!.lastPathComponent
@@ -283,7 +286,7 @@ class ViewController: NSViewController, NSUserNotificationCenterDelegate, NSTabl
         openPanel.canCreateDirectories = true
         openPanel.prompt = "Choose"
 		openPanel.beginSheetModal(for: self.view.window!){ button in
-			if button.rawValue == NSFileHandlingPanelOKButton{
+            if button == NSApplication.ModalResponse.OK {
 				self.saveToPath(openPanel.url!.path)
 				self.showDoneSuccessfully()
 			}
